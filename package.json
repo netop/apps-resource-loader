@@ -1,0 +1,11 @@
+{
+  "name": "apps-resource-loader",
+  "devDependancies": {},
+  "dependencies": {
+    "uglify-js": "^2.4.23"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CloudCityLabs/apps-resource-loader"
+  }
+}
