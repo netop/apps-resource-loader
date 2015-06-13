@@ -4,20 +4,20 @@ Wrapped in module.exports so you can use it via browserify.
 
 In your package json, include:
 
-  devDependencies: {
-    "apps-resource-loader": "git+https://github.com/pascalopitz/apps-resource-loader"
-  }
+    devDependencies: {
+      "apps-resource-loader": "git+https://github.com/pascalopitz/apps-resource-loader"
+    }
 
 In your file, you can now do this:
 
-  var RAL = require('apps-resource-loader')
+    var RAL = require('apps-resource-loader')
 
 Other changes:
 
-  RAL.Queue.skipOnError(boolean);
-  RAL.Debugger.activate();
-  RAL.Debugger.deactivate();
-  RAL.Debugger.log(...);
+    RAL.Queue.skipOnError(boolean);
+    RAL.Debugger.activate();
+    RAL.Debugger.deactivate();
+    RAL.Debugger.log(...);
 
 
 ## Chrome Packaged Apps Resource Loader
