@@ -1,9 +1,10 @@
 {
   "name": "apps-resource-loader",
   "version": "0.0.0",
-  "homepage": "https://github.com/CloudCityLabs/apps-resource-loader",
+  "homepage": "https://github.com/pascalopitz/apps-resource-loader",
   "authors": [
-    "Cameron Little <cameron@camlittle.com>"
+    "Cameron Little <cameron@camlittle.com>",
+    "Pascal Opitz <contact@pascalopitz.com>"
   ],
   "description": "Load remote resources in a Chrome App.",
   "main": "lib/ral.min.js",

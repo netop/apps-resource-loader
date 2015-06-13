@@ -4,8 +4,9 @@
   "dependencies": {
     "uglify-js": "^2.4.23"
   },
+  "main": "lib/RAL.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/CloudCityLabs/apps-resource-loader"
+    "url": "https://github.com/pascalopitz/apps-resource-loader"
   }
 }
