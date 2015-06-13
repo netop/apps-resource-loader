@@ -5,7 +5,7 @@ Wrapped in module.exports so you can use it via browserify.
 In your package json, include:
 
     devDependencies: {
-      "apps-resource-loader": "git+https://github.com/pascalopitz/apps-resource-loader"
+      "apps-resource-loader": "git+https://github.com/pascalopitz/apps-resource-loader.git"
     }
 
 In your file, you can now do this:
@@ -18,6 +18,12 @@ Other changes:
     RAL.Debugger.activate();
     RAL.Debugger.deactivate();
     RAL.Debugger.log(...);
+
+To build the libary into a minified file:
+
+    npm run-script compile
+
+This will create lib/ral.min.js
 
 
 ## Chrome Packaged Apps Resource Loader

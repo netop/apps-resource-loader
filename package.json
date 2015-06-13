@@ -1,12 +1,17 @@
 {
   "name": "apps-resource-loader",
+  "version": "0.0.1",
   "devDependancies": {},
-  "dependencies": {
-    "uglify-js": "^2.4.23"
-  },
   "main": "lib/RAL.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/pascalopitz/apps-resource-loader"
+  },
+  "devDependencies": {
+    "browserify": "^10.2.4",
+    "uglifyify": "^3.0.1"
+  },
+  "scripts": {
+    "compile": "./node_modules/.bin/browserify -v -d -t uglifyify -e lib/RAL.js > lib/ral.min.js"
   }
 }
